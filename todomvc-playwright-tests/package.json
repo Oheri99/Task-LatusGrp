@@ -1,0 +1,16 @@
+{
+  "name": "todomvc-playwright-tests",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "allure-playwright": "^2.4.0",
+    "allure-commandline": "^2.18.1"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:serve": "allure serve allure-results"
+  }
+}
