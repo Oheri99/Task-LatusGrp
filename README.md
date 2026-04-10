@@ -52,3 +52,5 @@ Reporting: Allure + Playwright HTML Reporter
 
 
 Ask ChatGPT
+
+#tested
